@@ -1,0 +1,9 @@
+### Abaixo, alguns exemplos de opções de inicialização de jogos Steam
+
+AMD_VULKAN_ICD=RADV %command%
+gamemoderun %command%
+mangohud %command%
+
+ou
+
+AMD_VULKAN_ICD=RADV gamemoderun mangohud %command%
