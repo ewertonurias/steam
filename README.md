@@ -4,11 +4,11 @@
 # Verifique se os seguintes pacotes se encontram instalados
 pacman -Q amd-ucode xf86-video-amdgpu lib32-vulkan-icd-loader lib32-vulkan-radeon vulkan-headers vulkan-icd-loader vulkan-radeon vulkan-tools lib32-mesa mesa mesa-utils
 
-## Pacotes AMD
+### Pacotes AMD
 amd-ucode
 xf86-video-amdgpu
 
-## Pacotes Vulkan
+### Pacotes Vulkan
 lib32-vulkan-icd-loader
 lib32-vulkan-radeon
 vulkan-headers
@@ -16,7 +16,7 @@ vulkan-icd-loader
 vulkan-radeon
 vulkan-tools
 
-## Pacotes Mesa
+### Pacotes Mesa
 lib32-mesa
 mesa
 mesa-utils
