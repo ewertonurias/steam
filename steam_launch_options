@@ -1,5 +1,18 @@
 ### Abaixo, alguns exemplos de opções de inicialização de jogos Steam
 
-AMD_VULKAN_ICD=RADV %command%
+### Habilitar o GameMode no jogo Steam:
 gamemoderun %command%
+
+### Habilitar o MangoHud no jogo Steam:
 mangohud %command%
+
+### Executar jogos Proton com driver Vulkan RADV:
+AMD_VULKAN_ICD=RADV %command%
+### RADV é um driver Vulkan de código aberto desenvolvido como parte do projeto Mesa. Ele já é executado por padrão, mesmo que o driver AMDVLK já esteja instalado no sistema.
+
+### Executar jogos Proton com o driver Vulkan AMDVLK:
+VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/amd_icd64.json PROTON_USE_WINED3D=1 %command%
+### A variável PROTON_USE_WINED3D=1 pode ser útil em alguns casos para melhorar a compatibilidade de jogos via Proton. No entanto, isso pode não ser necessário para todos os jogos, então você pode omiti-lo se desejar.
+
+### Salvar arquivo de log no diretório inicial do usuário:
+PROTON_LOG="/home/$USER/proton.log %command%
