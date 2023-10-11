@@ -20,4 +20,6 @@ lib32-mesa
 mesa
 mesa-utils
 
-```pacman -Q amd-ucode xf86-video-amdgpu lib32-vulkan-icd-loader lib32-vulkan-radeon vulkan-headers vulkan-icd-loader vulkan-radeon vulkan-tools lib32-mesa mesa mesa-utils```
+```
+pacman -Q amd-ucode xf86-video-amdgpu lib32-vulkan-icd-loader lib32-vulkan-radeon vulkan-headers vulkan-icd-loader vulkan-radeon vulkan-tools lib32-mesa mesa mesa-utils
+```
