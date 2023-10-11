@@ -9,7 +9,7 @@ sudo pacman -Syu steam
 ### Instala o Wine-Staging
 sudo pacman -Syu wine-staging
 
-### Instala o driver Vulkan de código aberto AMDVLK
+### Instala o driver Vulkan de código aberto AMDVLK (opcional)
 sudo pacman -Syu amdvlk lib32-amdvlk
 
 ### Instala os utilitários Gamemode e MangoHud
